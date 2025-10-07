@@ -47,7 +47,7 @@ var map =
             {
                 "name" : "Opuqide",
                 "link" : "https://devforum.roblox.com/u/opuqide/summary",
-                "icon" : "resources/ui/studio.png",
+                "icon" : "resources/ui/studio.svg",
                 "desc" : "i sometimes post on there",
                 "atprefix" : true
             },
