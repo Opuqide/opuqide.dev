@@ -21,12 +21,6 @@ var map =
         ]
     },
 
-    "threads" : {
-        "template" : "templates/thread.html?v=1",
-        "desc" : "Twitter threads - I write them if the information is too little to have its' own article",
-        "posts" : []
-    },
-
     "links" : {
         "template" : "templates/link.html?v=1",
         "posts" : [
