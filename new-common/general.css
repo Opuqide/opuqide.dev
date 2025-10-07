@@ -1,16 +1,16 @@
 @font-face {
-	font-family: Merriweather;
-	src: url(fonts/Merriweather-Regular.otf);
+	font-family: SFMono;
+	src: url(fonts/SFMono_Regular.otf);
 }
 
 @font-face {
-	font-family: Benne;
-	src: url(fonts/Benne-Regular.otf);
+	font-family: SFProDisplay;
+	src: url(fonts/SFPro_Display_Regular.otf);
 }
 
 @font-face {
-	font-family: Bellefair;
-	src: url(fonts/Bellefair-Regular.otf);
+	font-family: SFProTextBold;
+	src: url(fonts/SFPro_Text_Bold.otf);
 }
 
 html, body {
@@ -28,12 +28,12 @@ div.main {
 
 div.text {
 	margin: 8px 8px;
-	font-family: Benne;
+	font-family: SFMono;
 	font-size: 20px;
 }
 
 h1, h3, h4 {
-	font-family: Merriweather;
+	font-family: SFProDisplay;
 	margin-top: 3px;
 }
 
@@ -54,13 +54,13 @@ img.cover {
 }
 
 div.desc {
-	font-family: Bellefair;
+	font-family: SFMono;
 	color: gray;
 	font-size: 20px;
 }
 
 div.pic-desc {
-	font-family: Bellefair;
+	font-family: SFMono;
 	text-align: center;
 	color: gray;
 	font-size: 20px;
@@ -89,7 +89,7 @@ p.cli {
 	font-size: 15px;
 	background-color: rgb(188, 24, 155);
 	color: white;
-	font-family: Menlo, Consolas;
+	font-family: SFMono;
 	white-space: nowrap;
 	padding: 8px;
 	margin-top: 2px;
@@ -103,7 +103,7 @@ span.cli {
 	color: white;
 	padding: 2px;
 	border-radius: 5px;
-	font-family: Menlo, Consolas;
+	font-family: SFMono;
 	word-wrap: break-word;
 }
 
@@ -123,7 +123,7 @@ div.citation {
 }
 
 footer {
-	font-family: Merriweather;
+	font-family: SFProTextBold;
 	text-align: center;
 	color: white;
 	line-height: 30px;

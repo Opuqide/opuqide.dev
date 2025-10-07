@@ -33,14 +33,14 @@ var map =
             {
                 "name" : "Opuqide",
                 "link" : "https://twitter.com/Opuqide",
-                "icon" : "resources/ui/twitter_logo.png",
+                "icon" : "resources/ui/twitter_logo.svg",
                 "desc" : "not smth that i post on",
                 "atprefix" : true
             },
             {
                 "name" : "Opuqide",
                 "link" : "https://youtube.com/@Opuqide",
-                "icon" : "resources/ui/twitter_logo.png",
+                "icon" : "resources/ui/youtube_logo.svg",
                 "desc" : "i sometimes post on there",
                 "atprefix" : true
             },
