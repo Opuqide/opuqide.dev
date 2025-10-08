@@ -1,3 +1,17 @@
+@font-face {
+	font-family: SFMono;
+	src: url(fonts/SFMono_Regular.otf);
+}
+
+@font-face {
+	font-family: SFProDisplay;
+	src: url(fonts/SFPro_Display_Regular.otf);
+}
+
+@font-face {
+	font-family: SFProTextBold;
+	src: url(fonts/SFPro_Text_Bold.otf);
+}
 
 div.tab {
 	float: left;
@@ -9,13 +23,13 @@ div.tab {
     -moz-box-sizing: border-box;  
     box-sizing: border-box;
 
-    font-family: Merriweather;
+    font-family: SFMono;
 }
 
 div.tab-active {
 	font-weight: bold;
-	color: rgb(0, 0, 151);
-	border-bottom: 3px solid rgb(0, 0, 151);
+	color: rgb(255, 0, 106);
+	border-bottom: 3px solid rgb(255, 0, 72);
 }
 
 div.tab-active-dark {
