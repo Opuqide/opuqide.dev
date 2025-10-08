@@ -153,7 +153,7 @@ img.link {
 
 div.link {
     text-decoration: bold;
-    font-family: OpenSans;
+    font-family: SFMono;
     font-size: 15pt;
 }
 
@@ -178,7 +178,7 @@ img.github-link {
 
 span.github-link {
     vertical-align: middle;
-    font-family: OpenSans;
+    font-family: SFMono;
     text-decoration: underline;
 }
 
