@@ -71,6 +71,10 @@ img.shadowed {
     filter: drop-shadow(0px 0px 10px black);
 }
 
+img.cover {
+	background-size: cover;
+}
+
 div.layout-container {
     display: flex;
     flex-wrap: wrap;
