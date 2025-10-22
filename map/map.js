@@ -3,7 +3,14 @@ var map =
     "projects" : {
         "template" : "templates/project.html",
         "desc" : "All of the projects ive done in my life",
-        "posts" : []
+        "posts" : [
+            {
+                "title" : "Project Alpine: Remastered Open-Source",
+                "desc"  : "Open source repository for Project Alpine: Remastered.",
+                "picture" : "",
+                "link" : "https://github.com/Opuqide/par-open-source"
+            }
+        ]
     },
 
     "articles" : {
