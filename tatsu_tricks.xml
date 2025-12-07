@@ -210,6 +210,56 @@
         <key>Trusted</key><true/>
     </dict>
 
+    <key>Options</key>
+    <dict>
+        <!-- Required by PurpleRestore to begin a restore -->
+
+        <key>RestoreBehavior</key>
+        <string>Erase</string>
+
+        <key>AutoBootDelay</key>
+        <integer>0</integer>
+
+        <key>AutoBoot</key>
+        <true/>
+
+        <key>CreateFilesystemPartitions</key>
+        <true/>
+
+        <key>DFU</key>
+        <false/>
+
+        <key>DisableBBUpdate</key>
+        <false/>
+
+        <key>DisableKernelCacheRebuild</key>
+        <false/>
+
+        <key>UpdateBaseband</key>
+        <true/>
+
+        <key>SystemPartitionPadding</key>
+        <integer>0</integer>
+
+        <key>BootNonce</key>
+        <data>3d8c2a1ac40e1f9fbaa6b3457767026a65386f9f</data>
+
+        <key>UniqueBuildID</key>
+        <data>42dee42c245138afacfd7e6b67a9060d37e91524</data>
+
+        <!-- This key is important for PurpleRestore to know it's a full restore -->
+        <key>FullRestore</key>
+        <true/>
+
+        <!-- Whether to use TSS-dict values for manifests -->
+        <key>UseTSS</key>
+        <true/>
+
+        <!-- Required even if empty -->
+        <key>Variant</key>
+        <string>Internal Development</string>
+    </dict>
+
 </dict>
 </plist>
     </string>
