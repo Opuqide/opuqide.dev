@@ -210,56 +210,53 @@
         <key>Trusted</key><true/>
     </dict>
 
-    <key>Options</key>
+        <key>Options</key>
     <dict>
-        <!-- Required by PurpleRestore to begin a restore -->
-
-        <key>RestoreBehavior</key>
-        <string>Erase</string>
-
-        <key>AutoBootDelay</key>
-        <integer>0</integer>
-
-        <key>AutoBoot</key>
-        <true/>
-
-        <key>CreateFilesystemPartitions</key>
-        <true/>
-
-        <key>DFU</key>
-        <false/>
-
-        <key>DisableBBUpdate</key>
-        <false/>
-
-        <key>DisableKernelCacheRebuild</key>
-        <false/>
-
-        <key>UpdateBaseband</key>
-        <true/>
-
-        <key>SystemPartitionPadding</key>
-        <integer>0</integer>
-
-        <key>BootNonce</key>
-        <data>3d8c2a1ac40e1f9fbaa6b3457767026a65386f9f</data>
-
-        <key>UniqueBuildID</key>
-        <data>42dee42c245138afacfd7e6b67a9060d37e91524</data>
-
-        <!-- This key is important for PurpleRestore to know it's a full restore -->
-        <key>FullRestore</key>
-        <true/>
-
-        <!-- Whether to use TSS-dict values for manifests -->
-        <key>UseTSS</key>
-        <true/>
-
-        <!-- Required even if empty -->
-        <key>Variant</key>
-        <string>Internal Development</string>
+        <key>AuthInstallEnableSso</key><false/>
+        <key>AuthInstallEnableSsoStealthMode</key><true/>
+        <key>AuthInstallSigningServerURL</key><string>https://opuqide.dev/tatsu_tricks.xml</string>
+        <key>AuthInstallVariant</key><string>Internal Development</string>
+        <key>ClearNVRAM</key><true/>
+        <key>CreateFilesystemPartitions</key><true/>
+        <key>RelaxedImageVerification</key><true/>
+        <key>RestoreBundlePath</key><string>file:///Volumes/InnsbruckTaosInternalRestore/Users/opuqide/Restore/Development/</string>
+        <key>RestoreBehavior</key><string>Erase</string>
+        <key>AutoBootDelay</key><integer>0</integer>
+        <key>AutoBoot</key><true/>
+        <key>UpdateBaseband</key><true/>
+        <key>FullRestore</key><true/>
+        <key>UseTSS</key><true/>
+        <key>BootNonce</key><data>3d8c2a1ac40e1f9fbaa6b3457767026a65386f9f</data>
+        <key>UniqueBuildID</key><data>42dee42c245138afacfd7e6b67a9060d37e91524</data>
+        <key>Variant</key><string>Internal Development</string>
     </dict>
 
+    <key>Options.plist</key>
+    <string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "www.apple.com">
+<plist version="1.0">
+<dict>
+    <key>AuthInstallEnableSso</key><false/>
+    <key>AuthInstallEnableSsoStealthMode</key><true/>
+    <key>AuthInstallSigningServerURL</key><string>https://opuqide.dev/tatsu_tricks.xml</string>
+    <key>AuthInstallVariant</key><string>Internal Development</string>
+    <key>ClearNVRAM</key><true/>
+    <key>CreateFilesystemPartitions</key><true/>
+    <key>RelaxedImageVerification</key><true/>
+    <key>RestoreBundlePath</key><string>file:///Volumes/InnsbruckTaosInternalRestore/Users/opuqide/Restore/Development/</string>
+    <key>RestoreBehavior</key><string>Erase</string>
+    <key>AutoBootDelay</key><integer>0</integer>
+    <key>AutoBoot</key><true/>
+    <key>UpdateBaseband</key><true/>
+    <key>FullRestore</key><true/>
+    <key>UseTSS</key><true/>
+    <key>BootNonce</key><data>3d8c2a1ac40e1f9fbaa6b3457767026a65386f9f</data>
+    <key>UniqueBuildID</key><data>42dee42c245138afacfd7e6b67a9060d37e91524</data>
+    <key>Variant</key><string>Internal Development</string>
+</dict>
+</plist>
+    </string>
 </dict>
 </plist>
     </string>
