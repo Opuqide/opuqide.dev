@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "www.apple.com">
+<plist version="1.0">
+<dict>
+    <key>STATUS</key>
+    <integer>0</integer>
+
+    <key>MESSAGE</key>
+    <string>SUCCESS</string>
+
+    <key>REQUEST_STRING</key>
+    <string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "www.apple.com">
+<plist version="1.0">
+<dict>
+
+    <key>@APTicket</key><integer>1</integer>
+    <key>@BBTicket</key><integer>1</integer>
+    <key>@HostPlatformInfo</key><string>mac</string>
+    <key>@UUID</key><string>EDEF0888-AA24-49B7-80A9-B960BF97BBFA</string>
+    <key>@VersionInfo</key><string>libauthinstall-973.0.6</string>
+
+    <key>ApBoardID</key><integer>6</integer>
+    <key>ApChipID</key><integer>35136</integer>
+    <key>ApECID</key><integer>3104490839337</integer>
+
+    <key>ApNonce</key>
+    <data>3d8c2a1ac40e1f9fbaa6b3457767026a65386f9f</data>
+
+    <key>ApProductionMode</key><true/>
+    <key>ApSecurityDomain</key><integer>1</integer>
+
+    <!-- AppleLogo -->
+    <key>AppleLogo</key>
+    <dict>
+        <key>Digest</key>
+        <data>9ac9f303a8b0591309def722cb9ee85412eed441</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- BasebandFirmware -->
+    <key>BasebandFirmware</key>
+    <dict>
+        <key>EBL-Digest</key>
+        <data>8a6adf0a9bb0536d7075f0f542b7420facc5f95e</data>
+
+        <key>FlashPSI-PartialDigest</key>
+        <data>40040000c07a000031ed294ad600c21a...ad3a0a2d8c04c577</data>
+
+        <key>FlashPSI-SecPackDigest</key>
+        <data>695ee7e55529bd26cc580e0898c8f8474bdfa669</data>
+
+        <key>FlashPSI-Version</key>
+        <integer>0x0002000d</integer>
+
+        <key>ModemStack-Digest</key>
+        <data>79b78b359ff8a6fd9568d98b169644a5340d5f44</data>
+
+        <key>ModemStack-Length</key>
+        <integer>0x006f7248</integer>
+
+        <key>ModemStack-SecPackDigest</key>
+        <data>43d0c7aa981fcb520fd6f8b8e124d44e23699ea6</data>
+
+        <key>RamPSI-PartialDigest</key>
+        <data>40040000c0f900005a8f982bbdde4911...4a003fdc4c6ad5a8</data>
+
+        <key>RamPSI-Version</key>
+        <integer>0x0002000d</integer>
+    </dict>
+
+    <!-- Battery images -->
+    <key>BatteryCharging0</key>
+    <dict>
+        <key>Digest</key><data>957ed2d26b06a3b399baf0a3713aad3fd5466075</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <key>BatteryCharging1</key>
+    <dict>
+        <key>Digest</key><data>dd70b6394b7ca7f072d49d581188cb321d0ed26c</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <key>BatteryFull</key>
+    <dict>
+        <key>Digest</key><data>8c981dc9bb1b9297a7075a46503e6e7a9e389a57</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <key>BatteryLow0</key>
+    <dict>
+        <key>Digest</key><data>9934ac4669211b3bb6a00564ceffa5efccfee8bd</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <key>BatteryLow1</key>
+    <dict>
+        <key>Digest</key><data>dfa84d2c9c26e5f2df542dcd997ece53d7760992</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <key>BatteryPlugin</key>
+    <dict>
+        <key>Digest</key><data>dd5c4fb8cdee796fb44f3449f8a18892d2bac55d</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- Baseband identity -->
+    <key>BbChipID</key><integer>80</integer>
+    <key>BbGoldCertId</key><integer>257</integer>
+
+    <key>BbNonce</key>
+    <data>eb29038d305c4380560b16d994946ceae7c3239b</data>
+
+    <key>BbSNUM</key>
+    <data>e010141200244df158d27c0d</data>
+
+    <key>BbSkeyId</key>
+    <data>97ab34ac0693f5b03bfb726d4e2c254f14e270a1</data>
+
+    <!-- DeviceTree -->
+    <key>DeviceTree</key>
+    <dict>
+        <key>Digest</key><data>bfb3be86efda7e42faf86d19c78e51850006e045</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- KernelCache -->
+    <key>KernelCache</key>
+    <dict>
+        <key>Digest</key><data>8905fd95f88492cd2d62097db0d85b793be8030d</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- LLB -->
+    <key>LLB</key>
+    <dict>
+        <key>BuildString</key><string>iBoot-1940.3.5~1</string>
+        <key>Digest</key><data>fddf016eaae47954032013f2f7f60aebb33cf5e5</data>
+        <key>PartialDigest</key>
+        <data>400000007841020065db7c85ec985076...48627c046279ec45</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- RecoveryMode -->
+    <key>RecoveryMode</key>
+    <dict>
+        <key>Digest</key><data>3a4b21293d1161ed49698eb22862a6cd662fb83a</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- RestoreDeviceTree -->
+    <key>RestoreDeviceTree</key>
+    <dict>
+        <key>Digest</key><data>bfb3be86efda7e42faf86d19c78e51850006e045</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- RestoreKernelCache -->
+    <key>RestoreKernelCache</key>
+    <dict>
+        <key>Digest</key><data>8905fd95f88492cd2d62097db0d85b793be8030d</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- RestoreLogo -->
+    <key>RestoreLogo</key>
+    <dict>
+        <key>Digest</key><data>9ac9f303a8b0591309def722cb9ee85412eed441</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- RestoreRamDisk -->
+    <key>RestoreRamDisk</key>
+    <dict>
+        <key>Digest</key><data>886c4c649d0aec6f8941c47897b3951fbe30b27d</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- UniqueBuildID -->
+    <key>UniqueBuildID</key>
+    <data>42dee42c245138afacfd7e6b67a9060d37e91524</data>
+
+    <!-- iBEC -->
+    <key>iBEC</key>
+    <dict>
+        <key>BuildString</key><string>iBoot-1940.3.5~1</string>
+        <key>Digest</key><data>dee05d583545a18e56dec4357ab160878a831337</data>
+        <key>PartialDigest</key>
+        <data>400000007801050089a64acdfd7df670...408be0cdc07a40ad</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- iBSS -->
+    <key>iBSS</key>
+    <dict>
+        <key>BuildString</key><string>iBoot-1940.3.5~1</string>
+        <key>Digest</key><data>b50bdd7e4d855d3689fc68d15af119ef72bb65d0</data>
+        <key>PartialDigest</key>
+        <data>4000000078210100c6a1f3d668d8a14f...8d837f51fb332bea</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+    <!-- iBoot -->
+    <key>iBoot</key>
+    <dict>
+        <key>Digest</key><data>60252d06f8c93bab7d49321ac1d87ad7e184d5d6</data>
+        <key>Trusted</key><true/>
+    </dict>
+
+</dict>
+</plist>
+    </string>
+</dict>
+</plist>
