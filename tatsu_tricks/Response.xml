@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "www.apple.com">
+<plist version="1.0">
+<dict>
+    <key>STATUS</key>
+    <integer>0</integer>
+
+    <key>MESSAGE</key>
+    <string>SUCCESS</string>
+
+    <key>REQUEST_STRING</key>
+    <string>
+    https://www.opuqide.dev/tatsu_tricks/Options.plist
+    </string>
+</dict>
+</plist>
