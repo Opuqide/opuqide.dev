@@ -1,5 +1,12 @@
 [
   {
+    "ShortDescription":"Update 1.1 is now out.",
+    "Name":"Showcase v1.1 is out.",
+    "Time":1775653479,
+    "DisableReading":true,
+    "Description":"Showcase Update 1.1 migrates from the use of AppleKit to the new Kalumni framework, allowing for more flexible options for the internal engineering team. It also brings the new main menu. Additional services and features will be brought as time passes by."
+  },
+  {
     "ShortDescription":"uhhhhh this is a test.",
     "Name":"Test News Release",
     "Time":1775514819,
